@@ -1,0 +1,97 @@
+body{}
+*{margin:0;padding:0;box-sizing:border-box}
+
+/*-------------Header/About Us-------------*/
+header{background:url('../images/choose/dish.jpg') no-repeat center;
+background-size:cover;margin-bottom:5em}
+.orangetxt{color:rgb(255,60,30);font-size:1.7em;letter-spacing:2px}
+.navbar{padding:12px 12px}
+nav ul li a{font-size:0.9em}
+nav ul li.nav-item{padding:0 5px}
+.myjumbo{background:transparent;border-radius:0;text-align:center;color:white}
+.mb-1{font-family: 'Great Vibes', cursive;font-size:2.4em}
+.textcolor{color:rgb(255,60,30);font-size:1em;padding-left:10px}
+.txtposition{padding-right:10px}
+a.txtposition:hover{color:rgb(255,60,30) !important}
+
+/*-------------About Our Taste-------------*/
+.about_taste{margin-bottom:5em;background:url('../images/about/bg-1.jpg') no-repeat right bottom}
+.posit{position:relative;}
+.front{background:#f0f0f0;padding:50px 52px;position:absolute;left:0%;top:12%;z-index:1}
+.back{left:48.7%;z-index:0}
+.position_taste{margin-bottom:10px}
+.padd{padding-bottom:20px}
+.submit-button{padding:0px}
+.submit-btn{padding:20px;margin-top:2em;background:rgb(255,60,30);opacity:0.6;width:100%}
+.submit-btn a{text-align:center;text-decoration:none;color:white;
+display:block;font-size:1em;transition:all 0.5s}
+.submit-btn:hover{background:gray;opacity:0.6}
+
+/*-------------Statistics-------------*/
+.statistics{background:rgb(240,240,240);margin-top:150px;padding:80px 0 80px 0;}
+.static-body{text-align:center}
+.sizing{font-size:2.5em;padding-bottom:30px}
+.static-heading{text-align:center;font-size:3em}
+.static-text{font-size:1.2em}
+
+/*-------------Why Choose Us?-------------*/
+.choose_us{background:url('../images/about/bg-2.jpg') no-repeat top left;
+margin-bottom:50px;padding-top:80px}
+.whychoose{text-align:center;padding:20px 0 20px 0}
+.whychoose p{width:80%;margin:0 auto;padding-bottom:40px}
+.choose_box{padding-left:40px;}
+.frontimage{z-index:1}
+.backtext{background:rgb(240,240,240);padding:10px 0 20px 0;z-index:0}
+.choosestatics{background:rgb(240,240,240);margin:-120px 0 40px 0;padding:100px 0 40px 0;}
+
+/*-------------Our Lovely Team-------------*/
+.team{background:url('../images/about/team.png') no-repeat right;position:relative}
+h2{font-family: 'Great Vibes', cursive;font-size:2.4em;margin-bottom:30px}
+.teamup{text-align:center;padding:40px 0 80px 0}
+.teamup p{width:80%;margin:0 auto}
+figure{border:solid 1px #eee;margin-bottom:5em}
+.figure-caption{padding:10px 20px 15px}
+.size_team{margin:10px 20px 0px;color:gray;width:50%;padding-top:2px;
+border-top-style:double;border-top-color:lightgray;border-top-width:4px}
+.position_p{margin:0px 20px 20px}
+.image_box{position:relative;overflow:hidden}
+.third_person{background:rgba(255,99,71,0.4);width:100%;height:100%;
+position:absolute;left:0px;top:100%;text-align:center}
+.icons{position:relative;animation:lovely_team 1s linear infinite;/*linear forwards*/}
+.fa-plus-circle{color:white;font-size:50px;margin-top:56.25%}
+.fa-facebook-f, .fa-twitter, .fa-linkedin-in, .fa-google-plus-g{color:white;font-size:25px;
+margin-top:38%;padding:0 7%}
+.image_box:hover .third_person{top:0%;/*animation-play-state:paused*/}
+
+@keyframes lovely_team{
+	from {bottom:0%}
+	to {bottom:3%}
+}
+
+/*-------Arrow-up Button-------*/
+.arrow-up_box a{display:inline-block;width:40px;height:40px;background:rgb(255,60,30);
+transform:rotate(45deg);position:fixed;right:30px;bottom:32px;transform:all 0.5s}
+.fa-angle-up{transform:rotate(-45deg);color:white;font-size:25px;
+position:absolute;right:12px;bottom:7px;position:fixed}
+.arrow-up_box a:hover{background:gray;opacity:1}
+
+/*-------------Footer-------------*/
+.page-footer{background:rgb(240,240,240);border-top:1px solid lightgray;position:relative}
+.down{margin:80px 0 70px 0}
+h6{margin-bottom:1.2em}
+.instagram_grid{margin-top:1.8em}
+.instagram_box{width:29%;float:left;text-align:center;margin:0 5% 5% 0;position:relative;overflow:hidden;}
+.instagram_box:nth-child(3), .instagram_box:nth-child(6){margin-right:0%}
+.instagram_box img{width:100%;display:block}
+.sizefont{font-size:0.9em;color:gray}
+input{padding:10px;display:inline-block;width:100%;
+border:none;font-size:0.9em;margin-bottom:15px}
+.submit_btn{padding:10px;background:rgb(255,60,30);width:55%}
+.submit_btn a{text-align:center;text-decoration:none;color:white;
+display:block;font-size:0.9em;transition:all 0.5s}
+.submit_btn:hover{background:gray;opacity:1}
+.footer-copyright{font-size:0.9em;background:rgb(255,60,30)}
+.pattern_footer{background:rgba(255,99,71,0.4);width:100%;height:100%;
+position:absolute;left:0px;bottom:100%;transition:all 1s}
+.instagram_box:hover .pattern_footer{bottom:0%}
+.clear{clear:both}
